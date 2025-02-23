@@ -1,23 +1,58 @@
 body {
-  background pink;
+  background: pink; 
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
 }
 
 h1 {
-  color: blue;
-  fontsize: 3em; 
+  font-size: 3em; 
+  text-align: center;
+  color: #007BFF;
 }
 
 h2 {
-  color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal; 
+  margin-top: 20px;
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px; 
+  text-decoration: line-through;
+  color: grey;
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc
+}
+
+#tasks {
+  list-style-type: none;
+  padding: 0;
+}
+
+#tasks li {
+  font-size: 18px;
+  padding: 5px;
+  background: #e0e0e0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+a {
+  color: #ff4500;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
 }
